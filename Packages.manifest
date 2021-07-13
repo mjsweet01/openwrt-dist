@@ -1,0 +1,864 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: /github/workspace/openwrt-packages/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 401955
+Filename: adbyby_2.7-20200315_mips_24kc.ipk
+Size: 402720
+SHA256sum: 289b0bb3336ab4eb1a858adc951f8a6d0df160e58f89e2c2b788f1ebe1fc2663
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: /github/workspace/openwrt-packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mips_24kc
+Installed-Size: 17307
+Filename: chinadns-ng_1.0-beta.25-1_mips_24kc.ipk
+Size: 18103
+SHA256sum: a5c6947633168f55e4a9c70c3c7748de2db35320a663d46109d95898a21cdc62
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: clash
+Version: 1.6.5
+Depends: libc
+Source: /github/workspace/openwrt-packages/clash
+SourceName: clash
+Section: luci
+SourceDateEpoch: 1625367673
+Maintainer: frainzy1477
+Architecture: mips_24kc
+Installed-Size: 3112088
+Filename: clash_1.6.5_mips_24kc.ipk
+Size: 3106458
+SHA256sum: bafe916681c23cc333f766551b5904a382270198ce3be883b235f5af6cb912b6
+Description:  A rule-based tunnel in Go.
+
+Package: dns2socks
+Version: 2.1-20200218
+Depends: libc, libpthread
+Source: /github/workspace/openwrt-packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: ghostmaker
+Architecture: mips_24kc
+Installed-Size: 11326
+Filename: dns2socks_2.1-20200218_mips_24kc.ipk
+Size: 12122
+SHA256sum: cff376a8d2d2d3add56f7e2a6d49812ad0d928acb87c099629e9d1c8d03cde4b
+Description:  This is a utility to resolve DNS requests via a SOCKS5 tunnel and caches the answers.
+
+Package: ipt2socks
+Version: 1.1.3-1
+Depends: libc
+Source: /github/workspace/openwrt-packages/ipt2socks
+SourceName: ipt2socks
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 32375
+Filename: ipt2socks_1.1.3-1_mips_24kc.ipk
+Size: 33025
+SHA256sum: 8c0cf1aa108e3b4af6ef8aaf4a5cbb3c3004a0be17361a2483b07e3705b82a49
+Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: /github/workspace/openwrt-packages/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1626196813
+Maintainer: fabled
+Architecture: mips_24kc
+Installed-Size: 2604
+Filename: lua-maxminddb_0.2-1_mips_24kc.ipk
+Size: 3310
+SHA256sum: f6ef7f571b7e5915298c097aaaccb24ecbcaaf5c496a03fbe987d2ba53dea5b9
+Description:  libmaxminddb bindings for lua
+
+Package: luci-app-adbyby-plus
+Version: 2.0
+Depends: libc, adbyby, wget-ssl, ipset, dnsmasq-full
+Source: /github/workspace/openwrt-packages/luci-app-adbyby-plus
+SourceName: luci-app-adbyby-plus
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 9831
+Filename: luci-app-adbyby-plus_2.0_all.ipk
+Size: 10703
+SHA256sum: 3e231051e814b3cc4829034ea9ef793cf82b79391051a2ca7030b1b1376634e1
+Description:  LuCI support for Adbyby
+
+Package: luci-app-autoreboot
+Version: 1.0
+Depends: libc
+Source: /github/workspace/openwrt-packages/luci-app-autoreboot
+SourceName: luci-app-autoreboot
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1506
+Filename: luci-app-autoreboot_1.0_all.ipk
+Size: 2330
+SHA256sum: 20df9f2401b5a2a3da0b31233f021e2fe1f5e13f219082a55dc0071e629376db
+Description:  LuCI support for Scheduled Reboot
+
+Package: luci-app-bypass
+Version: 1.2-70
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, smartdns-le, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, unzip, lua-maxminddb, shadowsocks-libev-ss-server, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, xray-core, trojan-plus, trojan-go, redsocks2, microsocks
+Source: /github/workspace/openwrt-packages/luci-app-bypass
+SourceName: luci-app-bypass
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 2651929
+Filename: luci-app-bypass_1.2-70_all.ipk
+Size: 2470463
+SHA256sum: e06bf197ba6703a44a7e77038acc8d3434ba97ff3ee2a97c80d40902cd93ab62
+Description:  SS/SSR/Xray/Trojan/Trojan-Go/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-clash
+Version: v1.9.0
+Depends: libc, luci-base, wget, iptables, coreutils-base64, coreutils, coreutils-nohup, bash, ipset, curl, jsonfilter, ca-certificates, libcap, libcap-bin, iptables-mod-tproxy, kmod-ipt-extra, iptables-mod-extra, kmod-tun
+Source: /github/workspace/openwrt-packages/luci-app-clash
+SourceName: luci-app-clash
+Section: luci
+SourceDateEpoch: 1625155728
+Maintainer: frainzy1477
+Architecture: all
+Installed-Size: 2959053
+Filename: luci-app-clash_v1.9.0_all.ipk
+Size: 2783516
+SHA256sum: 009e8e6765ec272cb73ffd768908d824fb4a8503471c656fe4924a4492d17bdb
+Description:  Luci Interface for clash.
+
+Package: luci-app-dnsfilter
+Version: 1.0-10
+Depends: libc, curl, dnsmasq-full, ipset
+Source: /github/workspace/openwrt-packages/luci-app-dnsfilter
+SourceName: luci-app-dnsfilter
+License: GPLv2
+Section: LuCI
+SourceDateEpoch: 1626196813
+Maintainer: small_5 GaryPang
+Architecture: all
+Installed-Size: 9352
+Filename: luci-app-dnsfilter_1.0-10_all.ipk
+Size: 10015
+SHA256sum: 7c77b9bcf2eed7d0413fbc02d356b16162fbfaa2692d1c05ee513ef8541c7c6b
+Description:  Luci Support for DNSFilter.
+
+Package: luci-app-filetransfer
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-lib-fs
+Source: /github/workspace/openwrt-packages/luci-app-filetransfer
+SourceName: luci-app-filetransfer
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2590
+Filename: luci-app-filetransfer_git-21.194.62413-22a66a7_all.ipk
+Size: 3447
+SHA256sum: e6d0c9169d3974ab22a1ee5d8e382dc38df053e44a45d2e0908d266719ba2b49
+Description:  LuCI page for IPK upload
+
+Package: luci-app-frpc
+Version: 1.2.1
+Depends: libc
+Source: /github/workspace/openwrt-packages/luci-app-frpc
+SourceName: luci-app-frpc
+License: MIT
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6763
+Filename: luci-app-frpc_1.2.1_all.ipk
+Size: 7692
+SHA256sum: a0639b1f4edddf7bf150a84d0982be51478d7f413e2bd9c122ed2423cd48a27d
+Description:  LuCI support for Frpc
+
+Package: luci-app-passwall
+Version: 4
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, ipset, ip-full, ipt2socks, iptables-mod-tproxy, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, dns2socks, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-plus
+Source: /github/workspace/openwrt-packages/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 810677
+Filename: luci-app-passwall_4_all.ipk
+Size: 810752
+SHA256sum: 5beff740ffe2f130d99d341ba6be10cce2971c70e0e0b403dbd2a122e897c0b2
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 184
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, wget-ssl, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir
+Source: /github/workspace/openwrt-packages/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 193183
+Filename: luci-app-ssr-plus_184_all.ipk
+Size: 193400
+SHA256sum: 1749ffbd7b05cfaf67e7ae49e2cc6f37bbb7320666eb0832251df4e6c4906a17
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-vlmcsd
+Version: 1.0
+Depends: libc, vlmcsd
+Source: /github/workspace/openwrt-packages/luci-app-vlmcsd
+SourceName: luci-app-vlmcsd
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2327
+Filename: luci-app-vlmcsd_1.0_all.ipk
+Size: 3159
+SHA256sum: 29d1479daebbcd5c106c55e6db681b488feeaf67bcc32a759213cc1273763c95
+Description:  LuCI page for KMS
+
+Package: luci-app-vssr
+Version: 1.22-2-20210512
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs
+Source: /github/workspace/openwrt-packages/luci-app-vssr
+SourceName: luci-app-vssr
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 3184124
+Filename: luci-app-vssr_1.22-2-20210512_all.ipk
+Size: 3012593
+SHA256sum: ad1ca91c39bdaca01120949c5f17057a3e8736dc92cb4c0a6ad725e1c5617a91
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
+Package: luci-app-wrtbwmon
+Version: 2.0.8
+Depends: libc, wrtbwmon
+Source: /github/workspace/openwrt-packages/luci-app-wrtbwmon
+SourceName: luci-app-wrtbwmon
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7793
+Filename: luci-app-wrtbwmon_2.0.8_all.ipk
+Size: 8673
+SHA256sum: fe2735cd374bd5e27da5c016bf2bd242aabf78adb71a930324ef198f92a729e9
+Description:  A Luci module that uses wrtbwmon to track bandwidth usage
+
+Package: luci-app-zerotier
+Version: 1.0
+Depends: libc, zerotier
+Source: /github/workspace/openwrt-packages/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3463
+Filename: luci-app-zerotier_1.0_all.ipk
+Size: 4260
+SHA256sum: df617b1f302bd78440c2b7bc0f98a3a43d645f56e38bbab75763ab9f12770dc8
+Description:  LuCI for Zerotier
+
+Package: luci-i18n-adbyby-plus-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-adbyby-plus
+Source: /github/workspace/openwrt-packages/luci-app-adbyby-plus
+SourceName: luci-i18n-adbyby-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 2303
+Filename: luci-i18n-adbyby-plus-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 3157
+SHA256sum: f66dd15c6f246d18bb4f93d4ec8f1f6ea48642eec944f34ac021da6ee10af910
+Description:  Translation for luci-app-adbyby-plus - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-autoreboot-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-autoreboot
+Source: /github/workspace/openwrt-packages/luci-app-autoreboot
+SourceName: luci-i18n-autoreboot-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 519
+Filename: luci-i18n-autoreboot-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 1361
+SHA256sum: fd521f1a17f4aff82942dea8d707ea50bd551619d20ba608f4515344ab216d60
+Description:  Translation for luci-app-autoreboot - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-filetransfer-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-filetransfer
+Source: /github/workspace/openwrt-packages/luci-app-filetransfer
+SourceName: luci-i18n-filetransfer-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 792
+Filename: luci-i18n-filetransfer-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 1644
+SHA256sum: df26b351d3e3fb4f8e71e3dc18c4d541f3f7dbdfc0393b6d07ad47d033731a81
+Description:  Translation for luci-app-filetransfer - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-frpc-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-frpc
+Source: /github/workspace/openwrt-packages/luci-app-frpc
+SourceName: luci-i18n-frpc-zh-cn
+License: MIT
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: Xingwang Liao <kuoruan@gmail.com>
+Architecture: all
+Installed-Size: 2273
+Filename: luci-i18n-frpc-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 3167
+SHA256sum: 5e5b68d3e8a099a79c70e6ee6344cdb8bfed72bb10939d6973fa391c2502047b
+Description:  Translation for luci-app-frpc - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-passwall-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-passwall
+Source: /github/workspace/openwrt-packages/luci-app-passwall
+SourceName: luci-i18n-passwall-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 9940
+Filename: luci-i18n-passwall-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 10792
+SHA256sum: 89942d16246268d1603398944747dc9a9c6a660db7db84919fa565edc25b0e91
+Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-ssr-plus
+Source: /github/workspace/openwrt-packages/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 5379
+Filename: luci-i18n-ssr-plus-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 6206
+SHA256sum: a37b8be877922bb2dc2270dbab63779a7001188f0872a3e80d09391113916d5d
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-vlmcsd-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-vlmcsd
+Source: /github/workspace/openwrt-packages/luci-app-vlmcsd
+SourceName: luci-i18n-vlmcsd-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 771
+Filename: luci-i18n-vlmcsd-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 1619
+SHA256sum: 6bbab4839df41b3effe5fda6d9c5679fd3f06733d10d7b3b9a5a097a22f62ac7
+Description:  Translation for luci-app-vlmcsd - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-wrtbwmon-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-wrtbwmon
+Source: /github/workspace/openwrt-packages/luci-app-wrtbwmon
+SourceName: luci-i18n-wrtbwmon-zh-cn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 1561
+Filename: luci-i18n-wrtbwmon-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 2418
+SHA256sum: e94e4b8009a0d09b86ea2e6ae45d2e53952c371da44199acfd7d18e0816d6941
+Description:  Translation for luci-app-wrtbwmon - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-zerotier-zh-cn
+Version: git-21.194.62413-22a66a7
+Depends: libc, luci-app-zerotier
+Source: /github/workspace/openwrt-packages/luci-app-zerotier
+SourceName: luci-i18n-zerotier-zh-cn
+Section: luci
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 784
+Filename: luci-i18n-zerotier-zh-cn_git-21.194.62413-22a66a7_all.ipk
+Size: 1631
+SHA256sum: eb838a19d7d90898766c819a56694a8c79b28f8de9dfcbf51ea0754000bc3ae9
+Description:  Translation for luci-app-zerotier - 简体中文 (Chinese Simplified)
+
+Package: luci-lib-fs
+Version: 1.0-1
+Depends: libc, luci, luci-lib-nixio
+Source: /github/workspace/openwrt-packages/luci-lib-fs
+SourceName: luci-lib-fs
+Section: lang
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 2337
+Filename: luci-lib-fs_1.0-1_all.ipk
+Size: 3007
+SHA256sum: faa872eb31c43e1620ff97685c280e4a6865ec60aeeed21ee8c03d659b26cecd
+Description:  luci-lib-fs
+
+Package: luci-theme-argon
+Version: 2.2.7
+Depends: libc
+Source: /github/workspace/openwrt-packages/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 357288
+Filename: luci-theme-argon_2.2.7_all.ipk
+Size: 357900
+SHA256sum: afa4d6b64e747357a80d3c3594aca28e1e72a1229dbb59e0e62fbf92a2f68f7b
+Description:  Argon Theme
+
+Package: luci-theme-edge
+Version: git-21.194.62413-22a66a7
+Depends: libc, curl
+Source: /github/workspace/openwrt-packages/luci-theme-edge
+SourceName: luci-theme-edge
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1626196813
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 231572
+Filename: luci-theme-edge_git-21.194.62413-22a66a7_all.ipk
+Size: 232535
+SHA256sum: 13f26866be9b7b642a977b2b6fd26eb754b2c63489e436a0e7ebe6c6d4d0828a
+Description:  Edge Theme
+
+Package: microsocks
+Version: 1.0.2-2
+Depends: libc
+Source: /github/workspace/openwrt-packages/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: lean
+Architecture: mips_24kc
+Installed-Size: 4701
+Filename: microsocks_1.0.2-2_mips_24kc.ipk
+Size: 5400
+SHA256sum: 07ed6128b4634932d9f33510a969b52b5f8d60c34586825c7e927d0e69f4b74f
+Description:  microsocks is a Tiny Proxy in C.
+
+Package: overture
+Version: 1.8-rc1-2
+Depends: libc
+Source: /github/workspace/openwrt-packages/overture
+SourceName: overture
+License: MIT
+LicenseFiles: LICENSE.md
+Section: net
+SourceDateEpoch: 1626006257
+Architecture: mips_24kc
+Installed-Size: 3128982
+Filename: overture_1.8-rc1-2_mips_24kc.ipk
+Size: 3122585
+SHA256sum: 7e35838adaaa4a3eeb3f783870c2e84ae55538c8f7571bf61a490375d7cfa7a5
+Description:  Overture is a DNS server/forwarder/dispatcher written in Go.
+ Overture means an orchestral piece at the beginning of a classical music composition, just like DNS which is nearly the first step of surfing the Internet.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d
+Depends: libc, libpthread
+Source: /github/workspace/openwrt-packages/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 78161
+Filename: pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_mips_24kc.ipk
+Size: 79022
+SHA256sum: 31cd2066ba1e95ada119dbbc6077d4ed420c1e95e9e0c9282549c78a49e90d0b
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Source: /github/workspace/openwrt-packages/redsocks2
+SourceName: redsocks2
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 48779
+Filename: redsocks2_0.67-4_mips_24kc.ipk
+Size: 49603
+SHA256sum: 6e2a6d3a8bc86d98bbe3337a5cd8f59437eedf35d5fba4ac3757e49c7e58c431
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+Source: /github/workspace/openwrt-packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 45769
+Filename: shadowsocks-libev-ss-local_3.3.5-1_mips_24kc.ipk
+Size: 46097
+SHA256sum: 3f0613422cb792df5eec6bcbb7dd585ae6e958dd86236858ecf6712b79730013
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: /github/workspace/openwrt-packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 41464
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_mips_24kc.ipk
+Size: 41645
+SHA256sum: 8b5e2cd929e68e05ecc5d035567ffa59f36fb7b1a54a1ab7d8273d5f4cf1e7ce
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.3.5-1
+Depends: libc, ip, ipset, iptables-mod-tproxy, resolveip, shadowsocks-libev-ss-redir
+Source: /github/workspace/openwrt-packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 3255
+Filename: shadowsocks-libev-ss-rules_3.3.5-1_mips_24kc.ipk
+Size: 4154
+SHA256sum: bfa818d971fb928848596b47cbdb4d65e23d18d8a6558f6429a249f7157e1a6a
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libcares, libpcre
+Source: /github/workspace/openwrt-packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 50238
+Filename: shadowsocks-libev-ss-server_3.3.5-1_mips_24kc.ipk
+Size: 50677
+SHA256sum: 16b6819c93062526616ecab2879163910f91a1bb0c62b4b0c957e6952d3e47c7
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+Source: /github/workspace/openwrt-packages/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 39488
+Filename: shadowsocks-libev-ss-tunnel_3.3.5-1_mips_24kc.ipk
+Size: 39920
+SHA256sum: 7cc169d97f1dc1971d74bb45a6b158d388bc8d308adb5796c2c32f26c95853e9
+Description:  shadowsocks-libev ss-tunnel
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /github/workspace/openwrt-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 2398
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mips_24kc.ipk
+Size: 3126
+SHA256sum: 660886138a0ee74cf9f0502ae8cc3509d6d71683842d6d796ec3f59b774a147f
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /github/workspace/openwrt-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 57046
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mips_24kc.ipk
+Size: 57391
+SHA256sum: bbef43c9686a83c828dd1681c680a0f0d327be6e074138058c0f1f81007f7cc0
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /github/workspace/openwrt-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 2228
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_mips_24kc.ipk
+Size: 2991
+SHA256sum: a49a72638a475461a4d85e19d9549d2cedc1068ff476afcb94634936fc78e484
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /github/workspace/openwrt-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 50684
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mips_24kc.ipk
+Size: 51080
+SHA256sum: 7074879be96d0a4a690651ff3931e6e54305894a5c3c7f80a40c0aad2b9058af
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: /github/workspace/openwrt-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 58913
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_mips_24kc.ipk
+Size: 59227
+SHA256sum: 600e5b09ca1d0d8acb7f5fcce8537faecba02d752af7121670ccf66bb33e5aa8
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-4
+Depends: libc, libpthread, libev
+Source: /github/workspace/openwrt-packages/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mips_24kc
+Installed-Size: 29232
+Filename: simple-obfs-server_0.0.5-4_mips_24kc.ipk
+Size: 29750
+SHA256sum: cca100b7d07c3e6a192e608cb45a4794e2901ee6a999d1bba9594ed9e883c7fb
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-4
+Depends: libc, libpthread, libev
+Source: /github/workspace/openwrt-packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mips_24kc
+Installed-Size: 27517
+Filename: simple-obfs_0.0.5-4_mips_24kc.ipk
+Size: 28101
+SHA256sum: 06bd770a71f0e7cbc85a1e438afca5c70bd0d3dfcde5f07fca8c0fcb62c88e45
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: smartdns-le
+Version: 1.2021.02.06-2
+Depends: libc, libpthread, libopenssl1.1
+Source: /github/workspace/openwrt-packages/smartdns-le
+SourceName: smartdns-le
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Nick Peng <pymumu@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 63856
+Filename: smartdns-le_1.2021.02.06-2_mips_24kc.ipk
+Size: 64520
+SHA256sum: 52a476cdd0e2d2b3fb05244ad24d1bbaa0a95d5609c1193773fd63ce0521814f
+Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
+ gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
+ Unlike dnsmasq's all-servers, smartdns returns the fastest IP. 
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /github/workspace/openwrt-packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 3395
+Filename: tcping_0.3-1_mips_24kc.ipk
+Size: 4108
+SHA256sum: 4d2b0a2fc0bcac4bdcecdd983915ed08e87d5c93db0bd3efb974d59874e27574
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.4-1
+Depends: libc
+Source: /github/workspace/openwrt-packages/trojan-go
+SourceName: trojan-go
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: mips_24kc
+Installed-Size: 2967988
+Filename: trojan-go_0.10.4-1_mips_24kc.ipk
+Size: 2969299
+SHA256sum: 70c21c19c1928a837c8a6bcd30efd3c63dc06d65c7c1787725dfa78687c77e88
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: /github/workspace/openwrt-packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Trojan-Plus-Group
+Architecture: mips_24kc
+Installed-Size: 360992
+Filename: trojan-plus_10.0.3-2_mips_24kc.ipk
+Size: 361552
+SHA256sum: 35e329f7a97bb8b4138d9bbea0a07f92b0a51b34dcc67b062ec88c2f8dd7e7e6
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /github/workspace/openwrt-packages/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: mips_24kc
+Installed-Size: 22211
+Filename: vlmcsd_svn1113-3_mips_24kc.ipk
+Size: 22866
+SHA256sum: aaad295ade96f46b4f909f893fc317127647c2d542b84bfc7d1b1a1663dbf33b
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: wrtbwmon
+Version: 1.2.1-3
+Depends: libc, iptables
+Source: /github/workspace/openwrt-packages/wrtbwmon
+SourceName: wrtbwmon
+Section: net
+SourceDateEpoch: 1626196813
+Architecture: all
+Installed-Size: 7180
+Filename: wrtbwmon_1.2.1-3_all.ipk
+Size: 7952
+SHA256sum: 4c2a1fab6539fc32429c17f39b41f289914f6b92cad0ac255ccdd5b47e2da027
+Description:  An CERNET client daemon,
+ Most usually used in China collages.
+
+Package: xray-core
+Version: 1.4.2-1
+Depends: libc, ca-bundle
+Source: /github/workspace/openwrt-packages/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mips_24kc
+Installed-Size: 3775572
+Filename: xray-core_1.4.2-1_mips_24kc.ipk
+Size: 3777081
+SHA256sum: f72d7c6b36549dee3ed7099fdd0d3e597a7974c32904f96c3c7753884046f540
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: xray-geodata
+Version: 1.4.2-1
+Depends: libc, xray-core
+Source: /github/workspace/openwrt-packages/xray-core
+SourceName: xray-geodata
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1626196813
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mips_24kc
+Installed-Size: 1773365
+Filename: xray-geodata_1.4.2-1_mips_24kc.ipk
+Size: 1735728
+SHA256sum: fd5ea5cbd690b5b36dd913849d149f5c71b791725022b6ed72f349e10a917e94
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes GEO datas used for xray-core.
+
